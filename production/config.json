@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "publishId": "20261004094936-10fe",
+  "publishedAt": "2026-10-04T09:49:36.857Z",
+  "app": {
+    "name": "Petsofy",
+    "maintenance": {
+      "enabled": false,
+      "message": {
+        "en": "We're making improvements. Please check back soon.",
+        "ar": "نقوم ببعض التحسينات. يرجى المحاولة لاحقاً."
+      }
+    },
+    "storeUrls": {
+      "android": "",
+      "ios": ""
+    }
+  },
+  "versions": {
+    "android": {
+      "latest": "1.0.0",
+      "minimum": "1.0.0",
+      "force": false,
+      "message": {
+        "en": "A new version of Petsofy is available.",
+        "ar": "يتوفر إصدار جديد من بيتسوفي."
+      }
+    },
+    "ios": {
+      "latest": "1.0.0",
+      "minimum": "1.0.0",
+      "force": false,
+      "message": {
+        "en": "A new version of Petsofy is available.",
+        "ar": "يتوفر إصدار جديد من بيتسوفي."
+      }
+    }
+  },
+  "features": {
+    "shopping": true,
+    "favorites": true,
+    "petHotel": true,
+    "offers": true,
+    "notifications": true
+  },
+  "theme": {
+    "palette": "obsidian",
+    "custom": {
+      "accent": "#d4a64a"
+    },
+    "defaultMode": "dark",
+    "radius": "md"
+  },
+  "navigation": [
+    {
+      "id": "shop",
+      "enabled": true,
+      "label": {
+        "en": "Shop",
+        "ar": "المتجر"
+      },
+      "icon": "home",
+      "route": "/"
+    },
+    {
+      "id": "categories",
+      "enabled": true,
+      "label": {
+        "en": "Categories",
+        "ar": "الأقسام"
+      },
+      "icon": "grid",
+      "route": "/categories",
+      "requiresFeature": "shopping"
+    },
+    {
+      "id": "search",
+      "enabled": true,
+      "label": {
+        "en": "Search",
+        "ar": "بحث"
+      },
+      "icon": "search",
+      "route": "/search",
+      "requiresFeature": "shopping"
+    },
+    {
+      "id": "cart",
+      "enabled": true,
+      "label": {
+        "en": "Cart",
+        "ar": "السلة"
+      },
+      "icon": "cart",
+      "route": "/cart",
+      "requiresFeature": "shopping"
+    },
+    {
+      "id": "settings",
+      "enabled": true,
+      "label": {
+        "en": "Settings",
+        "ar": "الإعدادات"
+      },
+      "icon": "settings",
+      "route": "/settings"
+    }
+  ],
+  "home": {
+    "sections": [
+      {
+        "id": "announcement",
+        "type": "announcement",
+        "enabled": false,
+        "title": {
+          "en": "",
+          "ar": ""
+        },
+        "startsAt": null,
+        "endsAt": null,
+        "markets": [
+          "kw",
+          "uae"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "id": "offers",
+        "type": "offers",
+        "enabled": true,
+        "title": {
+          "en": "Offers",
+          "ar": "العروض"
+        },
+        "startsAt": null,
+        "endsAt": null,
+        "markets": [
+          "kw",
+          "uae"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "id": "petHotel",
+        "type": "petHotelCard",
+        "enabled": true,
+        "title": null,
+        "startsAt": null,
+        "endsAt": null,
+        "markets": [
+          "kw"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "id": "recent",
+        "type": "recentlyViewed",
+        "enabled": true,
+        "title": {
+          "en": "Recently viewed",
+          "ar": "شاهدتها مؤخراً"
+        },
+        "startsAt": null,
+        "endsAt": null,
+        "markets": [
+          "kw",
+          "uae"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "id": "trending",
+        "type": "productRail",
+        "enabled": true,
+        "title": {
+          "en": "Trending now",
+          "ar": "الأكثر رواجاً"
+        },
+        "startsAt": null,
+        "endsAt": null,
+        "markets": [
+          "kw",
+          "uae"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "id": "categories",
+        "type": "categories",
+        "enabled": true,
+        "title": {
+          "en": "Shop by category",
+          "ar": "تسوق حسب القسم"
+        },
+        "startsAt": null,
+        "endsAt": null,
+        "markets": [
+          "kw",
+          "uae"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en",
+      "ar"
+    ]
+  }
+}

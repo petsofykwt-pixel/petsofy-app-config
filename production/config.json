@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004122427-cd38",
-  "publishedAt": "2026-10-04T12:24:27.766Z",
+  "publishId": "20261004133206-94da",
+  "publishedAt": "2026-10-04T13:32:06.046Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -41,7 +41,8 @@
     "favorites": true,
     "petHotel": true,
     "offers": true,
-    "notifications": true
+    "notifications": true,
+    "storeLocator": false
   },
   "theme": {
     "palette": "obsidian",
@@ -236,5 +237,29 @@
       "en",
       "ar"
     ]
-  }
+  },
+  "stores": [
+    {
+      "id": "store-mutux3nm",
+      "enabled": true,
+      "name": {
+        "en": "Petsofy",
+        "ar": "بيت صوفي"
+      },
+      "address": {
+        "en": "AlRai ,Block 1,Street 35, building 221 ,paci 21446984,kuwait, Al Farwaniyah",
+        "ar": "الراي، قطعة 1، شارع 35، مبنى 221، الرقم الآلي للعنوان (PACI): 21446984، الكويت، الفروانية\n"
+      },
+      "hours": {
+        "en": "",
+        "ar": ""
+      },
+      "phone": "+96597151577",
+      "lat": 29.3126287,
+      "lng": 47.9418047,
+      "markets": [
+        "kw"
+      ]
+    }
+  ]
 }

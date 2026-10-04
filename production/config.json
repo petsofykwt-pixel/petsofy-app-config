@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004120031-441d",
-  "publishedAt": "2026-10-04T12:00:31.130Z",
+  "publishId": "20261004120202-1949",
+  "publishedAt": "2026-10-04T12:02:02.049Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
-      "enabled": true,
+      "enabled": false,
       "message": {
         "en": "We're making improvements. Please check back soon.",
         "ar": "نقوم ببعض التحسينات. يرجى المحاولة لاحقاً."

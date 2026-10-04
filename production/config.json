@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004154130-ef47",
-  "publishedAt": "2026-10-04T15:41:30.631Z",
+  "publishId": "20261004154738-8ced",
+  "publishedAt": "2026-10-04T15:47:38.111Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -257,7 +257,8 @@
       "lat": 29.3126287,
       "lng": 47.9418047,
       "markets": [
-        "kw"
+        "kw",
+        "uae"
       ]
     }
   ]

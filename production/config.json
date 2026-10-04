@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004155023-4e45",
-  "publishedAt": "2026-10-04T15:50:23.856Z",
+  "publishId": "20261004155048-8e4e",
+  "publishedAt": "2026-10-04T15:50:48.556Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -42,7 +42,7 @@
     "petHotel": true,
     "offers": true,
     "notifications": true,
-    "storeLocator": false
+    "storeLocator": true
   },
   "theme": {
     "palette": "custom",

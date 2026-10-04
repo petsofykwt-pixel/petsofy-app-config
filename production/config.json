@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004133522-ce63",
-  "publishedAt": "2026-10-04T13:35:22.184Z",
+  "publishId": "20261004142422-081f",
+  "publishedAt": "2026-10-04T14:24:22.587Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -45,9 +45,9 @@
     "storeLocator": true
   },
   "theme": {
-    "palette": "obsidian",
+    "palette": "custom",
     "custom": {
-      "accent": "#d4a64a"
+      "accent": "#fe6767"
     },
     "defaultMode": "dark",
     "radius": "md"

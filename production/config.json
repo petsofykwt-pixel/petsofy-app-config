@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004142422-081f",
-  "publishedAt": "2026-10-04T14:24:22.587Z",
+  "publishId": "20261004154130-ef47",
+  "publishedAt": "2026-10-04T15:41:30.631Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -79,7 +79,7 @@
       "enabled": true,
       "label": {
         "en": "store",
-        "ar": "بحث"
+        "ar": "محل"
       },
       "icon": "store",
       "route": "/stores"

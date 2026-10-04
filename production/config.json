@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004110526-7f9c",
-  "publishedAt": "2026-10-04T11:05:26.462Z",
+  "publishId": "20261004110719-54fa",
+  "publishedAt": "2026-10-04T11:07:19.850Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -111,10 +111,10 @@
       {
         "id": "announcement",
         "type": "announcement",
-        "enabled": false,
+        "enabled": true,
         "title": {
-          "en": "",
-          "ar": ""
+          "en": "hello",
+          "ar": "ليبلبلال"
         },
         "startsAt": null,
         "endsAt": null,

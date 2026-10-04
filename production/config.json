@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004094936-10fe",
-  "publishedAt": "2026-10-04T09:49:36.857Z",
+  "publishId": "20261004095205-fcb8",
+  "publishedAt": "2026-10-04T09:52:05.309Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -12,7 +12,7 @@
       }
     },
     "storeUrls": {
-      "android": "",
+      "android": "https://play.google.com/store/apps/details?id=com.petsofy.store&hl=en",
       "ios": ""
     }
   },
@@ -20,7 +20,7 @@
     "android": {
       "latest": "1.0.0",
       "minimum": "1.0.0",
-      "force": false,
+      "force": true,
       "message": {
         "en": "A new version of Petsofy is available.",
         "ar": "يتوفر إصدار جديد من بيتسوفي."

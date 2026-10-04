@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004155308-8d27",
-  "publishedAt": "2026-10-04T15:53:08.663Z",
+  "publishId": "20261004170402-0993",
+  "publishedAt": "2026-10-04T17:04:02.892Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -42,7 +42,8 @@
     "petHotel": true,
     "offers": true,
     "notifications": true,
-    "storeLocator": true
+    "storeLocator": true,
+    "reviews": true
   },
   "theme": {
     "palette": "custom",
@@ -114,6 +115,16 @@
       },
       "icon": "settings",
       "route": "/settings"
+    },
+    {
+      "id": "menu-muu2iju2",
+      "enabled": false,
+      "label": {
+        "en": "",
+        "ar": ""
+      },
+      "icon": "home",
+      "route": "/"
     }
   ],
   "home": {
@@ -216,6 +227,25 @@
         "title": {
           "en": "Shop by category",
           "ar": "تسوق حسب القسم"
+        },
+        "startsAt": null,
+        "endsAt": null,
+        "markets": [
+          "kw",
+          "uae"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "id": "storeCard-muu2jhbb",
+        "type": "storeCard",
+        "enabled": true,
+        "title": {
+          "en": "store",
+          "ar": "محل"
         },
         "startsAt": null,
         "endsAt": null,

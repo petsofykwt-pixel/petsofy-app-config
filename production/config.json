@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004133206-94da",
-  "publishedAt": "2026-10-04T13:32:06.046Z",
+  "publishId": "20261004133334-8f95",
+  "publishedAt": "2026-10-04T13:33:34.884Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -42,7 +42,7 @@
     "petHotel": true,
     "offers": true,
     "notifications": true,
-    "storeLocator": false
+    "storeLocator": true
   },
   "theme": {
     "palette": "obsidian",
@@ -76,14 +76,13 @@
     },
     {
       "id": "search",
-      "enabled": false,
+      "enabled": true,
       "label": {
         "en": "Search",
         "ar": "بحث"
       },
-      "icon": "search",
-      "route": "/search",
-      "requiresFeature": "shopping"
+      "icon": "store",
+      "route": "/stores"
     },
     {
       "id": "cart",
@@ -98,7 +97,7 @@
     },
     {
       "id": "menu-mutshfbv",
-      "enabled": true,
+      "enabled": false,
       "label": {
         "en": "Hotel",
         "ar": "فندق"

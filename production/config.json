@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261004154738-8ced",
-  "publishedAt": "2026-10-04T15:47:38.111Z",
+  "publishId": "20261004154835-520f",
+  "publishedAt": "2026-10-04T15:48:35.913Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -18,7 +18,7 @@
   },
   "versions": {
     "android": {
-      "latest": "1.0.0",
+      "latest": "1.2.0",
       "minimum": "1.0.0",
       "force": true,
       "message": {

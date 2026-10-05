@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261005130057-11c5",
-  "publishedAt": "2026-10-05T13:00:57.071Z",
+  "publishId": "20261005152701-8667",
+  "publishedAt": "2026-10-05T15:27:01.393Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -43,7 +43,7 @@
     "offers": true,
     "notifications": true,
     "storeLocator": true,
-    "reviews": true
+    "reviews": false
   },
   "theme": {
     "palette": "custom",

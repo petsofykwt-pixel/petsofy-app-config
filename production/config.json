@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261005124726-2e18",
-  "publishedAt": "2026-10-05T12:47:26.211Z",
+  "publishId": "20261005124858-5a31",
+  "publishedAt": "2026-10-05T12:48:58.229Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -93,7 +93,7 @@
         "ar": "السلة"
       },
       "icon": "cart",
-      "route": "/stores",
+      "route": "/cart",
       "requiresFeature": "shopping"
     },
     {

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261005090340-01b7",
-  "publishedAt": "2026-10-05T09:03:40.933Z",
+  "publishId": "20261005124726-2e18",
+  "publishedAt": "2026-10-05T12:47:26.211Z",
   "app": {
     "name": "Petsofy",
     "maintenance": {
@@ -79,11 +79,11 @@
       "id": "search",
       "enabled": true,
       "label": {
-        "en": "store",
-        "ar": "محل"
+        "en": "Search",
+        "ar": "بحث"
       },
-      "icon": "store",
-      "route": "/stores"
+      "icon": "search",
+      "route": "/search"
     },
     {
       "id": "cart",
@@ -129,25 +129,6 @@
   ],
   "home": {
     "sections": [
-      {
-        "id": "storeCard-muu2jhbb",
-        "type": "storeCard",
-        "enabled": true,
-        "title": {
-          "en": "store",
-          "ar": "محل"
-        },
-        "startsAt": null,
-        "endsAt": null,
-        "markets": [
-          "kw",
-          "uae"
-        ],
-        "platforms": [
-          "android",
-          "ios"
-        ]
-      },
       {
         "id": "announcement",
         "type": "announcement",
@@ -195,6 +176,25 @@
         "endsAt": null,
         "markets": [
           "kw"
+        ],
+        "platforms": [
+          "android",
+          "ios"
+        ]
+      },
+      {
+        "id": "storeCard-muu2jhbb",
+        "type": "storeCard",
+        "enabled": true,
+        "title": {
+          "en": "store",
+          "ar": "محل"
+        },
+        "startsAt": null,
+        "endsAt": null,
+        "markets": [
+          "kw",
+          "uae"
         ],
         "platforms": [
           "android",
